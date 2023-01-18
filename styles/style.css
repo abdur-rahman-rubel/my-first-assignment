@@ -74,13 +74,46 @@
     width: 420px;
     height: 100px;
 }
-.pints{
+.points{
     list-style: square inside;
 }
 
+/* Bonus section */
+.b-title{
+    font-size: 40px;
+    margin-left: 1000px;
+}
+.b-des{
+    margin-left: 1000px;
+    margin-bottom: 20px;
+}
+.bonus-table{
+    color: burlywood;
+    width: 600px;
+    height: 400px;
+    background-image: url('../images/bonus2_600x400.jpg');
+    background-repeat: no-repeat;
+    text-align: left;
+    margin-left: 1000px;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+table{   
+    border-collapse: collapse; 
+}
+
+td,th{
+    border: 1px solid gray;
+    padding: 5px 15px;
+    
+
+}
+
 /* my plans section */
-.fail-section{
+.plan-section{
+    width: 1200px;
     margin-bottom: 130px;
+    margin-left: 290px;
 }
 
 .plan-heading{
@@ -121,7 +154,7 @@
 }
 
 .gradient-title{
-    
+    font-family: 'Open Sans', sans-serif;
     color: aliceblue;
     width: 450px;
     height: 95px;
