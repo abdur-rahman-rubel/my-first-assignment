@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+/* banner section */
 .banner{
     padding-left: 900px;
     padding-top: 100px;
@@ -42,4 +43,34 @@
     width: 160px;
     height: 64px;
     text-align: right;
+}
+
+
+/* failures section */
+.fail{
+    width: 1800px;
+    margin-top: 0;
+    align-items: center;
+    padding-left: 200px;
+    padding-bottom: 150px;
+    gap: 200px;
+    display: flex;
+    
+}
+.fail-heading{
+    color: #151414;
+    font-size: 45px;
+    width: 310px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+.fail-des{
+    margin-bottom: 20px;
+    color: #444343;
+    font-size: 17px;
+    width: 420px;
+    height: 100px;
+}
+.pints{
+    list-style: square inside;
 }
